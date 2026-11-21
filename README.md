@@ -1,6 +1,6 @@
 # Refine Keyboard ✨
 
-**[Refine](https://github.com/AnandaDwiprayoga/refine-popclip) on your iPhone, as a keyboard.**
+**[Refine](https://github.com/AnandaDwiprayoga/Refine-Popclip) on your iPhone, as a keyboard.**
 
 Type a rough draft in Bahasa Indonesia, Indonesian chat slang or broken English with Apple's keyboard. Then switch to the Refine keyboard with 🌐 and tap a style. You get natural English in your own voice, and **Replace** swaps it in. 🇮🇩 does the reverse: it translates a message someone sent you into Bahasa Indonesia.
 
@@ -52,8 +52,8 @@ Then rebuild, and commit the new submodule commit.
 ## Get the code
 
 ```bash
-git clone --recurse-submodules https://github.com/AnandaDwiprayoga/refine-keyboard.git
-cd refine-keyboard
+git clone --recurse-submodules https://github.com/AnandaDwiprayoga/Refine-Keyboard-Iphone.git
+cd Refine-Keyboard-Iphone
 cp Local.example.xcconfig Local.xcconfig   # optional: bundle ID prefix, local.config.js path
 ```
 
