@@ -1,0 +1,19 @@
+// Defaults that work for the Simulator with no setup.
+// Your own values go in Local.xcconfig (gitignored): copy Local.example.xcconfig.
+
+// Must be globally unique for signing, e.g. com.yourname.refine.
+// The keyboard gets $(BUNDLE_PREFIX).keyboard.
+BUNDLE_PREFIX = com.example.refine
+
+// Your Apple ID's team (Xcode → Settings → Accounts). Not needed for the
+// Simulator or for SideStore, which signs the .ipa itself.
+DEVELOPMENT_TEAM =
+
+// Your private style profile, bundled into the keyboard at build time.
+// Defaults to a refine-popclip checkout next to this repo.
+REFINE_LOCAL_CONFIG = $(SRCROOT)/../refine-popclip/Refine.popclipext/local.config.js
+
+// Simulator builds sign locally without a team.
+CODE_SIGN_IDENTITY[sdk=iphonesimulator*] = -
+
+#include? "../Local.xcconfig"
